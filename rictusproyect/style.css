@@ -50,7 +50,7 @@ nav ul li a:hover {
 .slide {
     position: absolute;
     width: 98%;
-    height: 98%;
+    height: 45%;
     left: 1%;
     top: 1%;
     object-fit: cover;
@@ -67,7 +67,7 @@ nav ul li a:hover {
     content: "";
     position: absolute;
     width: 98%;
-    height: 98%;
+    height: 45%;
     background: rgba(0,0,0,0.4);
     top: 1%;
     left: 1%;
@@ -76,24 +76,27 @@ nav ul li a:hover {
 /* TEXTO SOBRE SLIDER */
 .hero-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 35%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: center;
+    text-align: left;
     z-index: 2;
 }
 
 .hero-text h1 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
     margin: 0;
     letter-spacing: 3px;
 }
 
 .hero-text p {
-    font-size: 20px;
-    margin-top: 10px;
-    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    justify-content: left;
 }
 
 /* INDICADORES */
@@ -101,6 +104,7 @@ nav ul li a:hover {
     position: absolute;
     bottom: 25px;
     width: 100%;
+    height: 55%;
     text-align: center;
     z-index: 3;
 }
@@ -123,6 +127,8 @@ nav ul li a:hover {
 
 /* SECCIONES */
 section {
+    height: 100vh;
+    margin: 20px 0;
     padding: 60px;
     text-align: center;
 }
